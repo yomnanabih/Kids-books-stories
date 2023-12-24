@@ -1,0 +1,114 @@
+*{
+margin: 0;
+padding: 0;
+font-family:sans-serif;
+}
+    
+
+body{
+display: flex;
+justify-content: center;
+justify-items: center;
+height: 100vh;
+align-items: center;
+background-image: url(z.jpg);
+}
+
+.log{
+   height: 450px;
+    width: 430px;
+    background-color: rgb(255, 255, 255,0.1);
+    color: rgb(22, 88, 146);
+    border-radius: 20px;
+    padding: 30px 40px;
+    backdrop-filter: blur(3px);
+}
+h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.user{
+width: 100%;
+height: 50px;
+position: relative;
+margin: 30px 0;
+color: aliceblue;
+
+}
+ .user input{
+width: 100%;
+height: 100%;
+background:transparent;
+border: none;
+border-radius: 40px;
+border: 2px solid rgb(255, 255, 255,0.2);
+font-size: 16px;
+padding-top:3px;
+padding-left: 20px;
+font-weight: 500px;
+font-size: larger;
+color:antiquewhite;
+
+ }
+
+ .user input::placeholder{
+    color: rgb(22, 88, 146);
+ }
+ .user i{
+    position: absolute;
+    right: 20px;
+    top: 80%;
+    transform: translateY(-50%);
+    font-size: 20px;
+ }
+
+ .Remember-forget{
+display: flex;
+justify-content: space-between;
+font-size: 14.5px;
+margin-top: 15px;
+margin-bottom: 20px;
+
+ }
+  .Remember-forget label input{
+  accent-color: rgb(22, 88, 146);
+  margin-right: 3px ; 
+  }
+.Remember-forget a{
+    text-decoration: none; 
+    color: blue;
+}
+.Remember-forget a:hover {
+    color: brown;
+}
+  .btn{
+  width: 100%; 
+  height: 45px;
+  border: none;
+outline: none;
+border-radius: 40px;
+font-size: 16px;
+font-weight: 600;
+color: blue;
+background-color: darkgray;
+  }
+.signup{
+font-size: 14.5px;
+text-align: center;
+margin: 20px 0 15px;
+}
+.signup p a{
+color: blue;
+text-decoration: none;
+font-weight: 600;
+}
+ .signup a:hover{
+    color: brown;
+ }
+
+ 
+ 
+
+
+
